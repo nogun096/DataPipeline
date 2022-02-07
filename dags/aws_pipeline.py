@@ -99,7 +99,7 @@ run_quality_checks = DataQualityOperator(
     dag=dag
 )
 
-end = DummyOperator(task_id='End',  dag=dag)
+End_execution = DummyOperator(task_id='End',  dag=dag)
 
 start >> events_to_redshift
 start >> songs_to_redshift
@@ -113,4 +113,4 @@ song_dimension_table >> run_quality_checks
 user_dimension_table >> run_quality_checks
 artist_dimension_table >> run_quality_checks
 time_dimension_table >> run_quality_checks
-run_quality_checks >> end
+run_quality_checks >> End_execution
