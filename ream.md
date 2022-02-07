@@ -5,12 +5,13 @@ and monitor their data warehouse ETL pipelines using Apache Airflow
 
 The goal is to create a data pipeline that is dynamic with reusable 
 tasks that can be monitored and allow for easy backfills.The pipeline includes data quality 
-checks to validate the datasets after initiating the ETL process to eliminate any data discrepancies.
+checks to validate the datasets after initiating the ETL process to eliminate any data discrepancies.</p>
   
 ![Data Pipeline Flow!](image/DataPipeline.png "Data Flow")
-The source data resides in S3 and needs to be processed in Sparkify's data warehouse in Amazon 
+  
+<p> The source data resides in S3 and needs to be processed in Sparkify's data warehouse in Amazon 
 Redshift. The source datasets consist of JSON logs that tell about user activity in the application 
-and JSON metadata about the songs the users listen to.
+and JSON metadata about the songs the users listen to. </p>
 
 ## Data Model using Star Schema
 
