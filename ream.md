@@ -15,9 +15,7 @@ and JSON metadata about the songs the users listen to.
 
 ## Data Model using Star Schema
 
-    
-    ![ Alt song_play_analysis_with_star_schema.png](https://github.com/nogun096/DataPipeline/blob/9b5608af7c27ec7c527d91a012937eb35125c79d/image/song_play_analysis_with_star_schema.png)
-
+![song_play_analysis_with_star_schema!](image/song_play_analysis_with_star_schema.png "song_play_analysis_with_star_schema")
 
 AIRFLOW SETUP 
 
