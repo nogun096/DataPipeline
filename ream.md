@@ -15,7 +15,7 @@ and JSON metadata about the songs the users listen to.
 
 ## Data Model using Star Schema
 
-    ![song_play_analysis_with_star_schema.png!](./image/song_play_analysis_with_star_schema.png "song_play_analysis_with_star_schema.png")
+    ![song_play_analysis_with_star_schema.png!](image/song_play_analysis_with_star_schema.png "song_play_analysis_with_star_schema.png")
 
 
 AIRFLOW SETUP 
